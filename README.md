@@ -2,8 +2,6 @@
 
 Welcome to Exercise 01. This exercise provides a small SQLite database with some data derived from the 1996 US Census and a few analytic questions related to working with SQL and open source analysis packages.
 
-----
-
 ### Using the Code
 
 If you wish to submit via GitHub:
@@ -23,12 +21,11 @@ If you wish to submit via an emailed zip file:
 
 1. Use open source tools and ecosystems - Python or R. Do not use proprietary tools, such as SAS, SPSS, JMP, Tableau, or Stata. 
 2. Use the Internet as a resource to help you complete your work. We do it all the time.
-3. Comment your code so that when you look back at it in a year, you'll remember what you were doing.
+3. Comment your code such that a fellow data scientist who isn't familiar with this data or analysis could understand the steps you take.
 4. There are many ways to approach and solve the problems presented in this exercise.
-5. [SQLite Manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/) is a fantastic free extension to Firefox that enables you to open and explore SQLite databases.
-6. Google will point you to popular libraries for connecting to SQLite databases from Python, R, etc.
+5. [DB Browser for SQLite](https://sqlitebrowser.org/dl/) is a cross-platform application you can use for initially exploring the SQLite database.
+6. For language specific instructions on how to connect to a SQLite database, use your favorite search engine.
 
-----
 
 ### The Task
 
@@ -43,18 +40,19 @@ Your **code** needs to perform the following tasks:
 1. Split the data into a 70/20/10 training, validation, and test data split. 
 1. Develop a model that predicts whether individuals, based on the census variables provided, make over $50,000/year. Use `over_50k` as the target variable. 
     * Commit enough code to reproduce your full model selection process, including your final model and all models developed along the way.
+1. Create a chart that you feel conveys one important relationship in the data.
 
 Your **writeup** should do the following:
-1. Include a a chart that you feel conveys one important relationship in the data.
 1. Describe your methodology and results in 500 words or less.
-  - Include the chart(s) generated in Step 7 as part of your write-up. Explain how the chart(s) informs your approach. 
+  - Include the chart generated as of your write-up. Explain how the chart informs your analysis. 
+  - You'll not be punished for going over 500 words, but it is a rough guideline of the length we expect.
+2. Include a chart that you feel conveys one important relationship in the data.
 
 _Additional Context:_
 
 * Assume the audience for your write-up is a non-technical stakeholder. 
 * Assume the audience for your code is a colleague who may need to read or modify it in the future.
 
-----
 
 ### The Data
 
