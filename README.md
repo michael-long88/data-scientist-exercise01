@@ -8,13 +8,14 @@ Welcome to Exercise 01. This exercise provides a small SQLite database with some
 
 If you wish to submit via GitHub:
 1. Fork this repository to your personal GitHub account and clone the fork to your computer. If you've received this repo as a zip file, ignore
-1. Save and commit your answers to your fork of the repository, and push them back to your personal GitHub account.
-2. Provide a link to that fork of the repository in your submission
+    - **Note**: This does mean you will have a visible public fork of this repo on your github account.
+2. Save and commit your answers to your fork of the repository, and push them back to your forked repository. Include code and writeup.
+3. Provide a link to that fork of the repository in your submission.
 
 If you wish to submit via an emailed zip file:
 1. Clone this repository or download the code as a zip file (see image below)
 2. Extract this repo (if downloaded as zip) and work locally with the code.
-3. When finished, zip your project folder and submit to the email you received the exercise from.
+3. When finished, zip your project folder (code and writeup) and submit to the email you received the exercise from.
 
 <img src="https://i.postimg.cc/KzwCd2Mg/Screen-Shot-2021-12-27-at-9-05-31-AM.png" alt="Downloading A Repo as a ZIP file" width="350">
 
@@ -33,7 +34,7 @@ If you wish to submit via an emailed zip file:
 
 You will be building a predictive model and writing up a summary of the data and your model. **The whole exercise should take no longer than 4 hours (self-timed)**.
 
-Your code needs to perform the following tasks:
+Your **code** needs to perform the following tasks:
 1. Write a SQL query that creates a consolidated dataset from the normalized tables in the database. In other words, write a SQL query that "flattens" the database to a single table.
 1. Export the "flattened" table to a CSV file.
 1. Import the "flattened" table (or CSV file) into your open source analytic environment of choice (R, Python) and stage it for analysis.
@@ -43,7 +44,7 @@ Your code needs to perform the following tasks:
 1. Develop a model that predicts whether individuals, based on the census variables provided, make over $50,000/year. Use `over_50k` as the target variable. 
     * Commit enough code to reproduce your full model selection process, including your final model and all models developed along the way.
 
-Your writeup should do the following:
+Your **writeup** should do the following:
 1. Include a a chart that you feel conveys one important relationship in the data.
 1. Describe your methodology and results in 500 words or less.
   - Include the chart(s) generated in Step 7 as part of your write-up. Explain how the chart(s) informs your approach. 
