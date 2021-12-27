@@ -4,45 +4,54 @@ Welcome to Exercise 01. This exercise provides a small SQLite database with some
 
 ----
 
+### Using the Code
+
+If you wish to submit via GitHub:
+1. Fork this repository to your personal GitHub account and clone the fork to your computer. If you've received this repo as a zip file, ignore
+1. Save and commit your answers to your fork of the repository, and push them back to your personal GitHub account.
+2. Provide a link to that fork of the repository in your submission
+
+If you wish to submit via an emailed zip file:
+1. Clone this repository or download the code as a zip file (see image below)
+2. Extract this repo (if downloaded as zip) and work locally with the code.
+3. When finished, zip your project folder and submit to the email you received the exercise from.
+
+<img src="https://i.postimg.cc/KzwCd2Mg/Screen-Shot-2021-12-27-at-9-05-31-AM.png" alt="Downloading A Repo as a ZIP file" width="350">
+
 ### Some guidance
 
-1. Use open source tools, such as Python, R, or Java. Do not use proprietary tools, such as SAS, SPSS, JMP, Tableau, or Stata. 
-1. Fork this repository to your personal GitHub account and clone the fork to your computer.
-1. Save and commit your answers to your fork of the repository, and push them back to your personal GitHub account. You can then provide a link to that fork of the repository if you need to show a code example.
-1. Use the Internet as a resource to help you complete your work. We do it all the time.
-1. Comment your code so that when you look back at it in a year, you'll remember what you were doing.
-1. There are many ways to approach and solve the problems presented in this exercise.
-1. Have fun!
-
-[SQLite Manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/) is a fantastic free extension to Firefox that enables you to open and explore SQLite databases. We use it often.
-
-Google will point you to popular libraries for connecting to SQLite databases from Python, R, etc.
+1. Use open source tools and ecosystems - Python or R. Do not use proprietary tools, such as SAS, SPSS, JMP, Tableau, or Stata. 
+2. Use the Internet as a resource to help you complete your work. We do it all the time.
+3. Comment your code so that when you look back at it in a year, you'll remember what you were doing.
+4. There are many ways to approach and solve the problems presented in this exercise.
+5. [SQLite Manager](https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/) is a fantastic free extension to Firefox that enables you to open and explore SQLite databases.
+6. Google will point you to popular libraries for connecting to SQLite databases from Python, R, etc.
 
 ----
 
 ### The Task
 
-There are many things you can do with this dataset. Here are a few structured tasks to attempt:
+You will be building a predictive model and writing up a summary of the data and your model. **The whole exercise should take no longer than 4 hours (self-timed)**.
 
-1. Read the section below about **The Data**.
+Your code needs to perform the following tasks:
 1. Write a SQL query that creates a consolidated dataset from the normalized tables in the database. In other words, write a SQL query that "flattens" the database to a single table.
 1. Export the "flattened" table to a CSV file.
-1. Import the "flattened" table (or CSV file) into your open source analytic environment of choice (R, Python, Java, etc.) and stage it for analysis.
-1. Perform some simple exploratory analysis and generate summary statistics to get a sense of what is in the data.
+1. Import the "flattened" table (or CSV file) into your open source analytic environment of choice (R, Python) and stage it for analysis.
+1. Perform a simple exploratory analysis and generate summary statistics to get a sense of what is in the data.
     * You should commit any useful or informative exploratory code.
-1. Split the data into training, validation, and test data sets. 
+1. Split the data into a 70/20/10 training, validation, and test data split. 
 1. Develop a model that predicts whether individuals, based on the census variables provided, make over $50,000/year. Use `over_50k` as the target variable. 
     * Commit enough code to reproduce your full model selection process, including your final model and all models developed along the way.
-1. Generate a chart that you feel conveys 1 or more important relationships in the data.
-1. Describe your methodology and results in 1/2 page of writing.
-    * Include the chart(s) generated in Step 7 as part of your write-up. If neccesary, explain how the chart(s) informs your approach. 
+
+Your writeup should do the following:
+1. Include a a chart that you feel conveys one important relationship in the data.
+1. Describe your methodology and results in 500 words or less.
+  - Include the chart(s) generated in Step 7 as part of your write-up. Explain how the chart(s) informs your approach. 
 
 _Additional Context:_
 
 * Assume the audience for your write-up is a non-technical stakeholder. 
 * Assume the audience for your code is a colleague who may need to read or modify it in the future.
-
-Voila!
 
 ----
 
@@ -74,6 +83,4 @@ Some of the reference tables have an entry for a question mark `?` that represen
 #### The Target Variable
 
 The target variable is `over_50k` in the `records` table in the database.
-
-
 
