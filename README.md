@@ -13,7 +13,7 @@ If you wish to submit via GitHub:
 If you wish to submit via an emailed zip file:
 1. Clone this repository or download the code as a zip file (see image below)
 2. Extract this repo (if downloaded as zip) and work locally with the code.
-3. When finished, zip your project folder (code and writeup) and submit to the email you received the exercise from.
+3. When finished, zip your project folder (code and writeup) and submit to the email you received the exercise from. Do not encrypt or add a password to the zip.
 
 <img src="https://i.postimg.cc/KzwCd2Mg/Screen-Shot-2021-12-27-at-9-05-31-AM.png" alt="Downloading A Repo as a ZIP file" width="350">
 
